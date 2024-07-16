@@ -1,5 +1,8 @@
 function firstWord(s) {
-  // your code here
+  let text = s;
+const myArray = text.split(" ");
+let word = myArray[0];
+	return word;
 }
 
 // Do not change the code below
