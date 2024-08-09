@@ -1,8 +1,11 @@
-function firstWord(s) {
-  let text = s;
-const myArray = text.split(" ");
-let word = myArray[0];
-	return word;
+function firstWord(str) {
+  str = str.trim();
+
+    // Split the string at the first space
+    let words = str.split(' ');
+
+    // Return the first word (or the entire string if there are no spaces)
+    return words[0] || str;
 }
 
 // Do not change the code below
